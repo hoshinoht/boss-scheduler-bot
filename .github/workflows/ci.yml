@@ -24,7 +24,7 @@ jobs:
 
       # setup-uv stopped publishing moving major/minor tags at v8, so there is
       # no `@v10` to pin to -- the full version tag is the immutable one.
-      - uses: astral-sh/setup-uv@v10.0.1
+      - uses: astral-sh/setup-uv@v10.2.0
 
       # Reads `requires-python` from pyproject.toml (3.12), the same as the image.
       - name: Install Python
